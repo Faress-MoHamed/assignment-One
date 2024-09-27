@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+	padding-left: 15% !important;
+	padding-right: 15% !important;
+	font-family: "Quicksand", sans-serif;
+	/* transition-timing-function: ; */
+}
+@media (max-width: 768px) {
+	main {
+		padding-left: 5% !important;
+		padding-right: 5% !important;
+	}
+}

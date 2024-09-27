@@ -1,0 +1,9 @@
+.active::before {
+	width: 50%;
+}
+.active::after{
+	width: 50%;
+}
+.active{
+	color: #2c98f0;
+}
